@@ -36,6 +36,8 @@ func init() {
 	cmd.Flags().StringSliceVar(&restrict, "restrict-to", []string{}, "restrict to these patterns")
 }
 
+// test
+
 func prepareConfig() {
 	if committer {
 		author = "committer"
